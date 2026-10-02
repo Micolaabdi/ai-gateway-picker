@@ -2,7 +2,7 @@ name: Refresh price table
 
 on:
   schedule:
-    - cron: "30 3 * 1" # every Monday 03:30 UTC (after the tracker's own run)
+    - cron: "30 3 * * 1" # every Monday 03:30 UTC (after the tracker's own run)
   workflow_dispatch: {}
 
 permissions:
