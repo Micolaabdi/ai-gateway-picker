@@ -1,0 +1,34 @@
+name: Refresh price table
+
+on:
+  schedule:
+    - cron: "30 3 * 1" # every Monday 03:30 UTC (after the tracker's own run)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Inject live prices
+        run: python3 scripts/inject_prices.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "picker-bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh price table ($(date -u +%F))"
+            git push
+          fi
