@@ -88,22 +88,22 @@ Blended $/M tokens (3:1 input:output), from the
 
 <!-- PRICE-TABLE:START -->
 
-_Snapshot 2026-10-02T17:48:59Z — source: [llm-gateway-price-tracker](https://github.com/Micolaabdi/llm-gateway-price-tracker) (AtmoRouter public API vs OpenRouter public API, matched by model id)._
+_Snapshot 2026-10-05T09:48:47Z — source: [llm-gateway-price-tracker](https://github.com/Micolaabdi/llm-gateway-price-tracker) (AtmoRouter public API vs OpenRouter public API, matched by model id)._
 
 | Model (AtmoRouter id) | In $/M | Out $/M | Blended | vs OpenRouter | Context |
 |---|---|---|---|---|---|
 | `atmo/deepseek-v4.1-flash` | $0.0000 | $0.0000 | $0.0000 | −100% vs OR | 1000k |
+| `alicn/qwen3.8-flash` | $0.0004 | $0.0012 | $0.0006 | −100% vs OR | 1000k |
+| `alicn/qwen3.8-omni-flash` | $0.0004 | $0.0012 | $0.0006 | −100% vs OR | 1000k |
+| `zai/glm-5.3-flash` | $0.0004 | $0.0013 | $0.0006 | −100% vs OR | 1000k |
+| `alicn/deepseek-v4.1-flash` | $0.0004 | $0.0015 | $0.0007 | −100% vs OR | 1000k |
 | `cb/deepseek-v4.1-flash` | $0.0004 | $0.0015 | $0.0007 | −100% vs OR | 1000k |
-| `ag/gemini-3.6-flash-high` | $0.0019 | $0.0094 | $0.0037 | — | 1000k |
-| `ag/gemini-3.7-flash-high` | $0.0019 | $0.0094 | $0.0037 | — | 1000k |
-| `ag/gemini-3.8-flash-high` | $0.0019 | $0.0094 | $0.0037 | — | 1000k |
-| `ali/kimi-k2.7-code` | $0.0024 | $0.010 | $0.0043 | −100% vs OR | 262k |
-| `cx/gpt-6-luna` | $0.0022 | $0.011 | $0.0045 | −98% vs OR | 272k |
-| `ali/qwen3.8-omni-flash` | $0.0034 | $0.011 | $0.0052 | −98% vs OR | 1000k |
-| `cbcn/deepseek-v4.1-flash` | $0.0053 | $0.021 | $0.0092 | −92% vs OR | 1000k |
-| `cx/gpt-5.6-luna` | $0.0045 | $0.027 | $0.010 | −98% vs OR | 272k |
+| `zai/glm-4.6v` | $0.0008 | $0.0022 | $0.0011 | −100% vs OR | 200k |
+| `mm/MiniMax-M2.5` | $0.0008 | $0.0030 | $0.0013 | — | 204k |
+| `mm/MiniMax-M2.7` | $0.0008 | $0.0030 | $0.0013 | — | 204k |
+| `mm/MiniMax-M3` | $0.0008 | $0.0030 | $0.0013 | — | 1000k |
 
-_All 92 models in the tracker data file. Check any gateway's own pricing page before committing budget — prices move._
+_All 109 models in the tracker data file. Check any gateway's own pricing page before committing budget — prices move._
 
 <!-- PRICE-TABLE:END -->
 
