@@ -88,7 +88,7 @@ Blended $/M tokens (3:1 input:output), from the
 
 <!-- PRICE-TABLE:START -->
 
-_Snapshot 2026-10-05T09:48:47Z — source: [llm-gateway-price-tracker](https://github.com/Micolaabdi/llm-gateway-price-tracker) (AtmoRouter public API vs OpenRouter public API, matched by model id)._
+_Snapshot 2026-10-12T09:59:51Z — source: [llm-gateway-price-tracker](https://github.com/Micolaabdi/llm-gateway-price-tracker) (AtmoRouter public API vs OpenRouter public API, matched by model id)._
 
 | Model (AtmoRouter id) | In $/M | Out $/M | Blended | vs OpenRouter | Context |
 |---|---|---|---|---|---|
@@ -103,7 +103,7 @@ _Snapshot 2026-10-05T09:48:47Z — source: [llm-gateway-price-tracker](https://g
 | `mm/MiniMax-M2.7` | $0.0008 | $0.0030 | $0.0013 | — | 204k |
 | `mm/MiniMax-M3` | $0.0008 | $0.0030 | $0.0013 | — | 1000k |
 
-_All 109 models in the tracker data file. Check any gateway's own pricing page before committing budget — prices move._
+_All 131 models in the tracker data file. Check any gateway's own pricing page before committing budget — prices move._
 
 <!-- PRICE-TABLE:END -->
 
