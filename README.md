@@ -88,22 +88,22 @@ Blended $/M tokens (3:1 input:output), from the
 
 <!-- PRICE-TABLE:START -->
 
-_Snapshot 2026-11-02T10:18:26Z — source: [llm-gateway-price-tracker](https://github.com/Micolaabdi/llm-gateway-price-tracker) (AtmoRouter public API vs OpenRouter public API, matched by model id)._
+_Snapshot 2026-11-09T10:37:57Z — source: [llm-gateway-price-tracker](https://github.com/Micolaabdi/llm-gateway-price-tracker) (AtmoRouter public API vs OpenRouter public API, matched by model id)._
 
 | Model (AtmoRouter id) | In $/M | Out $/M | Blended | vs OpenRouter | Context |
 |---|---|---|---|---|---|
-| `atmo/deepseek-v4.1-flash` | $0.0000 | $0.0000 | $0.0000 | −100% vs OR | 1000k |
 | `alicn/qwen3.8-flash` | $0.0004 | $0.0012 | $0.0006 | −100% vs OR | 1000k |
 | `alicn/qwen3.8-omni-flash` | $0.0004 | $0.0012 | $0.0006 | −100% vs OR | 1000k |
 | `zai/glm-5.3-flash` | $0.0004 | $0.0013 | $0.0006 | −99% vs OR | 1000k |
 | `alicn/deepseek-v4.1-flash` | $0.0004 | $0.0015 | $0.0007 | −100% vs OR | 1000k |
 | `alicn/deepseek-v4.1-flash-1017` | $0.0004 | $0.0015 | $0.0007 | −100% vs OR | 1000k |
-| `mm/MiniMax-M3.1-Flash` | $0.0004 | $0.0015 | $0.0007 | — | 1000k |
-| `mm/MiniMax-M3.1-Flash-Preview` | $0.0004 | $0.0015 | $0.0007 | — | 1000k |
 | `alicn/deepseek-v4-flash-0731` | $0.0006 | $0.0016 | $0.0008 | −99% vs OR | 1000k |
 | `zai/glm-4.6v` | $0.0008 | $0.0022 | $0.0011 | −100% vs OR | 200k |
+| `mmcn/MiniMax-M2` | $0.0008 | $0.0030 | $0.0013 | — | 204k |
+| `ali/deepseek-v4-pro-0813` | $0.0016 | $0.0050 | $0.0025 | −100% vs OR | 1000k |
+| `alicn/deepseek-v4-pro-0813` | $0.0016 | $0.0050 | $0.0025 | −100% vs OR | 1000k |
 
-_All 146 models in the tracker data file. Check any gateway's own pricing page before committing budget — prices move._
+_All 154 models in the tracker data file. Check any gateway's own pricing page before committing budget — prices move._
 
 <!-- PRICE-TABLE:END -->
 
